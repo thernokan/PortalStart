@@ -1,0 +1,14 @@
+name: PortalStart
+main: world.bentobox.portalstart.PortalStart
+version: ${version}${build.number}
+icon: OBSIDIAN
+api-version: 2.4.0
+
+authors: tastybento
+
+softdepend: AcidIsland, BSkyBlock, CaveBlock, SkyGrid, AOneBlock
+
+permissions:
+  '[gamemode].island.portalstart':
+    description: Player can use the portal
+    default: true
